@@ -1,0 +1,5 @@
+Experiment,Train Acc,Test Acc,Train Loss,Test Loss,Recall (Churn),F1-Score (Churn)
+"Baseline: 2 layers (64-32), ReLU, lr=0.001, epochs=50",95.00%,94.25%,0.1083,0.1592,0.67,0.26
+"Exp 2: Deeper network (128-64-32), ReLU, lr=0.001",97.81%,94.25%,0.0429,0.2003,0.17,0.08
+"Exp 3: Tanh activation, lower lr=0.0005, epochs=80",85.25%,84.25%,0.3201,0.3496,0.83,0.14
+Exp 4: High learning rate lr=0.01 (too aggressive),95.81%,93.75%,0.0921,0.2128,0.83,0.29

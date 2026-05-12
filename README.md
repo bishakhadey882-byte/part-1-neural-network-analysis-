@@ -11,6 +11,7 @@ The objective is to build and analyze a feed-forward neural network on a custome
 
 ## Dataset
 
+**Dataset Source:** https://drive.google.com/drive/folders/1akV6po4Nrgkc3yQrJkzA6cJIV-wBvUYs?usp=sharing
 - **File used:** `customer_churn_nn.csv`
 - **Rows:** 2,000 customer records
 - **Columns:** 17 (16 features + 1 target)
